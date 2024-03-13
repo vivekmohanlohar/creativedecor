@@ -295,7 +295,7 @@ header.sticky {
   z-index: 9999;
   position: fixed;
   width: 100%;
-  background: var(--th-color);
+  background: #000;
   transition: 0.5s;
   height: 12vh;
   transition: 0.5s;
@@ -1202,6 +1202,23 @@ textarea {
     padding: 15px 0 0 0;
   }
 
+  .heading h2 , h3{
+    font-size: 1.5rem;
+  }
+  .about .left, .about .right {
+    width: 100%;
+  }
+
+  .about .right  {
+    display: grid;
+    place-items: center   ;
+  }
+  .about .right img {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+
   .home p {
     max-width: 90%;
   }
@@ -1400,7 +1417,7 @@ textarea {
   }
 
   .home h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .grid2,
@@ -1417,7 +1434,7 @@ textarea {
   }
 
   .home {
-    height: 140vh;
+    height: 80vh;
   }
 
   .home .grid {
